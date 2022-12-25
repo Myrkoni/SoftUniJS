@@ -26,8 +26,8 @@ function solve(input){
              if(N2 === 0){
             console.log(`Cannot divide ${N1} by zero`);
              }else{
-        result = N1 / N2
-        console.log(`${N1} / ${N2} = ${result.toFixed(2)}`)
+            result = N1 / N2
+            console.log(`${N1} / ${N2} = ${result.toFixed(2)}`)
              }
         } 
         else if( symbol === "%"){
