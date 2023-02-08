@@ -33,7 +33,7 @@ function solve(input) {
     console.log(`${((countV / fens) * 100).toFixed(2)}%`);
     console.log(`${((countG / fens) * 100).toFixed(2)}%`);
     console.log(`${((fens / capacity) * 100).toFixed(2)}%`);
-    
+
 }
 solve([76,
     10,
