@@ -11,7 +11,7 @@ function bombNumbers(arr1, arr2) {
         }
     }
 
-    for (const num of arr1) {
+    for (let num of arr1) {
         sum += num;
     }
 
